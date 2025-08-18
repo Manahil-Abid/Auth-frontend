@@ -226,3 +226,4 @@ html,body,#root { height:100%; margin:0; background:linear-gradient(180deg,var(-
 .flex{ display:flex; gap:8px; align-items:center; }
 .center{ display:flex; align-items:center; justify-content:center; }
 .hidden{ display:none; }
+

@@ -1,0 +1,121 @@
+/* General container */
+.container {
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+/* Card base */
+.card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.small-muted {
+  font-size: 0.85rem;
+  color: #777;
+}
+
+/* Buttons */
+.btn-primary {
+  display: inline-block;
+  padding: 8px 14px;
+  background: #0077ff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background: #005ec2;
+}
+
+.btn-outline {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-top: 8px;
+  background: transparent;
+  color: #0077ff;
+  border: 2px solid #0077ff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn-outline:hover {
+  background: #0077ff;
+  color: white;
+}
+
+/* Links */
+.link {
+  color: #0077ff;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/* Profile layout */
+.profile-preview {
+  display: flex;
+  gap: 20px;
+}
+
+/* Left main profile section */
+.profile-main {
+  flex: 2;
+}
+
+.profile-main h2 {
+  margin-top: 0;
+}
+
+.profile-meta {
+  margin: 5px 0 15px 0;
+}
+
+/* Skills */
+.skill-list {
+  margin-bottom: 20px;
+}
+
+.skill {
+  display: inline-block;
+  background: #eaf3ff;
+  color: #0077ff;
+  padding: 5px 10px;
+  margin: 3px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+
+/* Projects */
+.project {
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.project h4 {
+  margin-bottom: 5px;
+}
+
+/* Right sidebar */
+.side-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
